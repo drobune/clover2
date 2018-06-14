@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -13,7 +13,7 @@ body a {
 }
 html, body{
     font-size: 100%;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'hiragino kaku gothic pro', Meiryo, 'Roboto Condensed', sans-serif;
 }
 body{
 	background:#FFFFFF;
@@ -477,7 +477,7 @@ ul.dropdown-menu {
     font-size: .4em;
     letter-spacing: 5px;
     text-align: right;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'hiragino kaku gothic pro', Meiryo, 'Roboto Condensed', sans-serif;
 }
 .agileinfo_footer_grid p{
 	color:#999;
@@ -656,7 +656,7 @@ ul.agileinfo_footer_grid_list {
     -ms-background-size: cover !important;
 }
 .about-banner h2{
-    color: #ffffff;	
+    color: #ffffff;
 }
 /*-- about-top --*/
 .about-w3layouts-pic{
@@ -723,7 +723,7 @@ a.pa_italic label {
 }
 .panel-default > .panel-heading {
     border-bottom: 1px solid #ccc;
-} 
+}
 /*-- //about-top --*/
 /*-- feature-grid --*/
 .feature-grid{
@@ -859,7 +859,7 @@ img.img-responsive {
 
 /* Common style */
 .grid figure {
-	position: relative;	
+	position: relative;
 	overflow: hidden;
 	margin: 10px 0;
 	height: auto;
@@ -1020,7 +1020,7 @@ figure.effect-roxy:hover p {
     -ms-transition: 0.5s all;
     -moz-transition: 0.5s all;
     cursor: pointer;
-} 
+}
 .icon-box:hover {
     background: #86c724;
     transition: 0.5s all;
@@ -1039,11 +1039,11 @@ figure.effect-roxy:hover p {
     float: left;
     width: 12.5%;
     height: 115px;
-    padding: 10px; 
+    padding: 10px;
     line-height: 1.4;
-    text-align: center;  
+    text-align: center;
     font-size: 12px;
-    list-style-type: none;	
+    list-style-type: none;
 }
 .codes .bs-glyphicons .glyphicon {
     margin-top: 5px;
@@ -1061,7 +1061,7 @@ figure.effect-roxy:hover p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .codes .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -1120,7 +1120,7 @@ h3.agileits-icons-title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .icons .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -1167,7 +1167,7 @@ h3.hdg {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1354,7 +1354,7 @@ h2.typoh2{
 	}
 }
 /*-- //typography --*/
-/*-- contact --*/ 
+/*-- contact --*/
 .contact-form input[type="text"],.contact-form input[type="email"] {
     width: 47.7%;
     color: #999;
@@ -1412,7 +1412,7 @@ h2.typoh2{
 ::-moz-placeholder {  /* Firefox 19+ */
 	color:#999 !important;
 }
-:-ms-input-placeholder {  
+:-ms-input-placeholder {
 	color:#999 !important;
 }
 .contact-right h4 {
@@ -1475,7 +1475,7 @@ h2.typoh2{
     font-size: .9em;
     color: #191d20;
 }
-.address p a:hover { 
+.address p a:hover {
     color: #fff;
 }
 .map .social-icons li a {
@@ -1658,7 +1658,7 @@ h2.typoh2{
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
