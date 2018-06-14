@@ -13,7 +13,7 @@ body a {
 }
 html, body{
     font-size: 100%;
-	font-family: 'hiragino kaku gothic pro', Meiryo, 'Roboto Condensed', sans-serif;
+	font-family: 'hiragino kaku gothic pro', "Yu Gothic", 'Roboto Condensed', sans-serif;
 }
 body{
 	background:#FFFFFF;
@@ -219,6 +219,17 @@ ul.dropdown-menu {
     min-height: 650px;
     position: relative;
 }
+.banner::before{
+    /* 透過した黒を重ねる */
+    background-color: rgba(0,0,0,0.3);
+    /* どの範囲に重ねるかを指定 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
 .banner_text{
     text-align: center;
     margin: 11em 0 0 0;
@@ -415,11 +426,13 @@ ul.dropdown-menu {
 .text-grid{
 	background:url(../images/5.jpg) no-repeat 0px 0px;
 	background-size:cover;
+        background-position: center center;
 	text-align:center;
+        padding: 15em 0em;
 }
 .text-grid h4{
     color: #FFFFFF;
-    font-size: 5em;
+    font-size: 3.5em;
     margin: 0;
     font-weight: 600;
     text-transform: uppercase;
@@ -477,7 +490,7 @@ ul.dropdown-menu {
     font-size: .4em;
     letter-spacing: 5px;
     text-align: right;
-    font-family: 'hiragino kaku gothic pro', Meiryo, 'Roboto Condensed', sans-serif;
+    font-family: 'hiragino kaku gothic pro', "Yu Gothic", 'Roboto Condensed', sans-serif;
 }
 .agileinfo_footer_grid p{
 	color:#999;
