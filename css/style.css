@@ -285,6 +285,10 @@ ul.dropdown-menu {
     padding: 1em;
     z-index: 1;
 }
+.circle-thumb {
+    width: 152px;
+    height: 152px;
+}
 /* General button style (reset) */
 .btn {
 	border: none;
